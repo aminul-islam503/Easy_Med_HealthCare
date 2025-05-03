@@ -2,9 +2,9 @@
  * 
  */
 import home from "./home.js"
-import about from "./about.js"
+// import about from "./about.js"
 import patient from "./patient.js"
-import doctor from "./doctor.js"
+// import doctor from "./doctor.js"
 const navbar=()=>{
 	return (`	<nav id="navbar">
 	            <ul>
@@ -27,9 +27,9 @@ export let bindingAllAnchor=()=>{
 	let container = document.querySelector("#container")
 	let pageReloader={
 		"/home":home,
-		"/about":about,
+		// "/about":about,
 		"/patient":patient,
-		"/doctor":doctor
+		// "/doctor":doctor
 	}
 	let handleClick = (e)=> {
 		e.preventDefault()
